@@ -6,4 +6,12 @@
   background-color: #303030;
 }
 
-
+.navbar_block {
+  float: left;
+  display: block;
+  color: rgb(235, 235, 235);
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 14px 16px;
+}
