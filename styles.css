@@ -16,6 +16,11 @@
   padding: 14px 16px;
 }
 
+.topnav a:hover {
+  background-color: #d8d8d8;
+  color: #303030;
+}
+
 body {
   margin:0;
 }
