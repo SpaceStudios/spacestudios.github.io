@@ -6,7 +6,7 @@
   background-color: #303030;
 }
 
-.navbar_block {
+.topnav a {
   float: left;
   display: block;
   color: rgb(235, 235, 235);
