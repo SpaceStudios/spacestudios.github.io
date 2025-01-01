@@ -50,6 +50,10 @@ function checkValues() {
         Errors += "<p>The amount of questions must be greater than or equal to 1</p>";
         HasErrors = true;
     }
+    if (parseInt(teamNumMax)-parseInt(teamNumMin) < 600) {
+        console.error("Not Enough Seperation, Requires 600");
+        Errors += "<p>Not Enough Seperation, Requires 600</p>";
+        HasErrors = true;
     console.log({
         CompYear:parseInt(Year),
         rangeMin: parseInt(teamNumMin),
