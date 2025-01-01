@@ -77,7 +77,7 @@ function checkValues() {
 }
 
 function startQuiz() {
-    QuizSettings.CurrentQuestion = 1;
+    QuizSettings.CurrentQuestion = 0;
     QuizSettings.CorrectQuestions = 0;
     window.localStorage.setItem("quizSettings", JSON.stringify(QuizSettings));
     console.log(QuizSettings);
