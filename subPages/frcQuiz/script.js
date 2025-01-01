@@ -15,6 +15,7 @@ function pickRandom(minimum, maximum) {
 
 function checkValues() {
     var Errors = "";
+    HasErrors = false;
     var Year = document.getElementById("year").value;
     var teamNumMin = document.getElementById("rangeMin").value;
     var teamNumMax = document.getElementById("rangeMax").value;
