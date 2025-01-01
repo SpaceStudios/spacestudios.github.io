@@ -54,6 +54,8 @@ function checkValues() {
         console.error("Not Enough Seperation, Requires 600");
         Errors += "<p>Not Enough Seperation, Requires 600</p>";
         HasErrors = true;
+    }
+    
     console.log({
         CompYear:parseInt(Year),
         rangeMin: parseInt(teamNumMin),
