@@ -101,6 +101,7 @@ function loadQuestion() {
     document.getElementById("option4").addEventListener("click", selectOption4, false);
     document.getElementById("submit").addEventListener("click", submit, false);
     document.getElementById("check").addEventListener("click", submit, false);
+    console.log(parseInt(QuizSettings.CurrentQuestion) < parseInt(QuizSettings.QuizQuestions));
     if (parseInt(QuizSettings.CurrentQuestion) < parseInt(QuizSettings.QuizQuestions)) {
         document.getElementById("submit").setAttribute("href", "question.html");
         document.getElementById("submit").innerText = "Submit";
