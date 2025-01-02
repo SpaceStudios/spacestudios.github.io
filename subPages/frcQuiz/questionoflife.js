@@ -102,11 +102,11 @@ function loadQuestion() {
     document.getElementById("submit").addEventListener("click", submit, false);
     document.getElementById("check").addEventListener("click", submit, false);
     if (QuizSettings.CurrentQuestion < QuizSettings.QuizQuestions) {
-        document.getElementById("submit").classList.remove("hidden");
-        document.getElementById("check").classList.add("hidden");
+        document.getElementById("submit").setAttribute("href", "question.html");
+        document.getElementById("submit").innerText = "Submit";
     } else {
-        document.getElementById("submit").classList.add("hidden");
-        document.getElementById("check").classList.remove("hidden");
+        document.getElementById("submit").setAttribute("href", "score.html");
+        document.getElementById("submit").innerText = "Submit and Check Score";
     }
 }
 
